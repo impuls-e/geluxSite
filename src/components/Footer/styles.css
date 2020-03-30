@@ -1,0 +1,31 @@
+footer {
+  height: 10vh;
+  display: flex;
+  background-color: #000;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+footer p {
+  font-style: italic;
+}
+footer h4 {
+  width: 220px;
+  margin-top: 5px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9e233;
+  border-radius: 25px;
+  color: #000;
+  font-weight: 900;
+}
+@media (min-width: 820px) {
+  footer {
+    flex-direction: row;
+  }
+  footer h4 {
+    margin: 0 0 0 10px;
+  }
+}

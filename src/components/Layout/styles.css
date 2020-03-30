@@ -20,20 +20,32 @@ textarea {
 button {
   cursor: pointer;
 }
+::selection {
+  background: #eeb734;
+  color: #000;
+}
 .container {
   padding: 0 20px;
 }
 .background {
   background: url("../../images/park-lights-on.jpg");
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: center;
   background-size: cover;
-  -webkit-filter: brightness(0.8) contrast(1);
+  -webkit-filter: brightness(0.8) contrast(1.2) opacity(1);
   animation: 4s ease 4s 1 normal forwards running background;
   position: absolute;
   height: 100vh;
   width: 100%;
   z-index: -1;
+}
+@keyframes background {
+  0% {
+    -webkit-filter: brightness(0.8) contrast(1.2) opacity(1);
+  }
+  100% {
+    -webkit-filter: brightness(1.8) contrast(1) opacity(0.9) saturate(1.2);
+  }
 }
 @media (min-width: 768px) {
   .container {
