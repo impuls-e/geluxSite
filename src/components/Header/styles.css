@@ -9,8 +9,8 @@ header .icon {
   display: none !important;
 }
 header .logo {
-  height: 100% !important;
-  width: 150px !important;
+  height: 100px !important;
+  width: 125px !important;
 }
 header .social-icons {
   display: flex;
@@ -28,7 +28,6 @@ header .social-icons svg {
   header.container {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
-    padding: 0 70px 0 60px;
     height: 150px;
   }
   header.container .icon {
@@ -37,18 +36,10 @@ header .social-icons svg {
   header.container .logo {
     justify-self: center;
     grid-column: 2;
-    width: 185px !important;
+    width: 183px !important;
     height: 150px !important;
   }
   header.container .social-icons {
     justify-self: end;
-  }
-  header.container .social-icons a {
-    width: 36px;
-    height: 36px;
-    margin: 0 10px;
-  }
-  header.container .social-icons a svg {
-    font-size: 36px;
   }
 }
