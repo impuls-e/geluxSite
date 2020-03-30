@@ -15,7 +15,7 @@ export default function Intro() {
         </aside>
         <nav>
           <h2>Entre em Contato</h2>
-          <a href="">
+          <a href="whatsapp://send?abid=+5548991815995&text=Olá!">
             <div className="whats">
               <FaWhatsapp></FaWhatsapp>
             </div>

@@ -1,11 +1,10 @@
-import React from "react"
-
+import React from "react";
+import "./styles.css";
 export default function Footer() {
   return (
     <footer>
-      <h1>Footer</h1>© {new Date().getFullYear()}, Built with
-      {` `}
-      <a href="https://www.gatsbyjs.org">Gatsby</a>
+      <p>Gostaria de fechar um projeto ?</p>
+      <h4>contato.gelux@gmail.com</h4>
     </footer>
-  )
+  );
 }

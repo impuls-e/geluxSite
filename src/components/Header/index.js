@@ -40,13 +40,13 @@ export default function Header() {
         alt="Logo da Gelux"
       />
       <div className="social-icons">
-        <a href="https://www.facebook.com/belabelindaapliques/">
+        <a href="https://www.facebook.com/gelux.eletrica/">
           <FaFacebookSquare color="#F9E233" />
         </a>
-        <a href="https://www.instagram.com/belabelindabr/">
+        <a href="https://www.instagram.com/gelux.eletrica/">
           <FaInstagram color="#F9E233" />
         </a>
-        <a href="https://www.instagram.com/belabelindabr/">
+        <a href="mailto:contato.gelux@gmail.com">
           <MdEmail color="#F9E233" />
         </a>
       </div>
