@@ -10,9 +10,16 @@ import { FaFacebookSquare, FaInstagram } from "react-icons/fa";
 export default function Header() {
   const data = useStaticQuery(graphql`
     query ImgHeader {
-      image: file(relativePath: { eq: "geluxlogo.png" }) {
+      icon: file(relativePath: { eq: "icon.png" }) {
         childImageSharp {
-          fixed(height: 100) {
+          fixed(height: 70) {
+            ...GatsbyImageSharpFixed
+          }
+        }
+      }
+      image: file(relativePath: { eq: "gelux-logo.png" }) {
+        childImageSharp {
+          fixed(height: 150) {
             ...GatsbyImageSharpFixed
           }
         }
@@ -21,7 +28,17 @@ export default function Header() {
   `);
   return (
     <header className="container header">
-      <Img fixed={data.image.childImageSharp.fixed} alt="Logo da Gelux" />
+      <Img
+        className="icon"
+        fixed={data.icon.childImageSharp.fixed}
+        alt="icone da Gelux"
+      />
+
+      <Img
+        className="logo"
+        fixed={data.image.childImageSharp.fixed}
+        alt="Logo da Gelux"
+      />
       <div className="social-icons">
         <a href="https://www.facebook.com/belabelindaapliques/">
           <FaFacebookSquare color="#F9E233" />
