@@ -41,13 +41,13 @@ export default function Header() {
       />
       <div className="social-icons">
         <a href="https://www.facebook.com/gelux.eletrica/">
-          <FaFacebookSquare color="#F9E233" />
+          <FaFacebookSquare color="#fff" />
         </a>
         <a href="https://www.instagram.com/gelux.eletrica/">
-          <FaInstagram color="#F9E233" />
+          <FaInstagram color="#fff" />
         </a>
         <a href="mailto:contato.gelux@gmail.com">
-          <MdEmail color="#F9E233" />
+          <MdEmail color="#fff" />
         </a>
       </div>
     </header>

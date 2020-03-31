@@ -1,7 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: `Gelux`,
-    description: `Soluções em elétrica`,
+    title: "Gelux",
+    titleTemplate: "%s · Soluções Completas em Elétrica",
+    description: "Instalação e Manutenção Elétrica em Geral",
+    url: "https://www.geluxeletrica.com.br",
+    siteUrl: "https://www.geluxeletrica.com.br", // No trailing slash allowed!
+    image: `${__dirname}/src/images/icon.png`, // Path to your image you placed in the 'static' folder
+    twitterUsername: "@gelux",
     author: `@impulse`
   },
   plugins: [
@@ -18,13 +23,35 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
-        start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
-        display: `minimal-ui`,
-        icon: `src/images/icon.png` // This path is relative to the root of the site.
+        name: config.siteTitle,
+        short_name: config.siteTitleShort,
+        description: config.siteDescription,
+        start_url: "/",
+        background_color: config.backgroundColor,
+        theme_color: config.themeColor,
+        display: "standalone",
+        icon: "src/images/icon.png" // This path is relative to the root of the site.
+      }
+    },
+    {
+      resolve: "gatsby-plugin-html-attributes",
+      options: {
+        lang: "pt-BR"
+      }
+    },
+    {
+      resolve: "gatsby-plugin-robots-txt",
+      options: {
+        host: "https://www.geluxeletrica.com.br",
+        sitemap: "https://www.geluxeletrica.com.br/sitemap.xml",
+        env: {
+          development: {
+            policy: [{ userAgent: "*", disallow: ["/"] }]
+          },
+          production: {
+            policy: [{ userAgent: "*", allow: "/" }]
+          }
+        }
       }
     }
     // this (optional) plugin enables Progressive Web App + Offline functionality
