@@ -18,12 +18,12 @@
   opacity: 0;
   animation-delay: 2s;
 }
-.intro aside {
+.intro ul {
   display: flex;
   flex-direction: column;
   margin-bottom: 60px;
 }
-.intro aside p {
+.intro ul li {
   font-size: 14px;
   font-weight: 900;
 }
@@ -50,6 +50,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: 0.5s;
 }
 .intro nav a span {
   margin-left: 5px;
@@ -57,6 +58,27 @@
   font-weight: 700;
   display: flex;
   align-items: center;
+  position: relative;
+  transition: 0.5s;
+}
+.intro nav a span:hover {
+  color: #e8d365;
+}
+.intro nav a span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.intro nav a:hover span {
+  padding-right: 25px;
+}
+
+.intro nav a:hover span:after {
+  opacity: 1;
+  right: 0;
 }
 @keyframes intro {
   0% {
@@ -83,10 +105,10 @@
     justify-content: space-between;
     align-items: center;
   }
-  .intro .introduction aside {
+  .intro .introduction ul {
     margin: 0;
   }
-  .intro .introduction aside p {
+  .intro .introduction ul li {
     font-size: 18px;
   }
   .intro .introduction nav h2 {

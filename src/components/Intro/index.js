@@ -6,16 +6,16 @@ export default function Intro() {
     <div className="container intro">
       <h1>Soluções Completas em Elétrica</h1>
       <div className="introduction">
-        <aside>
-          <p>Instalação e Manutenção Elétrica em Geral;</p>
-          <p>Instalação e Manutenção em Sistemas de Iluminação;</p>
-          <p>Projetos Elétricos e Luminotécnicos;</p>
-          <p>Projetos e Execução de Serviços CELESC;</p>
-          <p>Ensaios, Medições e Estudos Elétricos;</p>
-        </aside>
+        <ul>
+          <li>Instalação e Manutenção Elétrica em Geral;</li>
+          <li>Instalação e Manutenção em Sistemas de Iluminação;</li>
+          <li>Projetos Elétricos e Luminotécnicos;</li>
+          <li>Projetos e Execução de Serviços CELESC;</li>
+          <li>Ensaios, Medições e Estudos Elétricos.</li>
+        </ul>
         <nav>
           <h2>Entre em Contato</h2>
-          <a href="whatsapp://send?abid=+5548991815995&text=Olá!">
+          <a href="whatsapp://send?abid=+5548991815995">
             <div className="whats">
               <FaWhatsapp></FaWhatsapp>
             </div>
