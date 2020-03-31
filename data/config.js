@@ -4,7 +4,7 @@ const config = {
   siteTitleShort: "GX",
   siteRss: "/rss.xml",
   siteImage: "",
-  googleAnalyticsID: "UA-141117092-12",
+  googleAnalyticsID: "UA-141117092-14",
   themeColor: "#000000",
   backgroundColor: "#000000",
   siteUrl: "https://www.geluxeletrica.com.br"
