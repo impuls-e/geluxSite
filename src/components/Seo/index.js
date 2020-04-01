@@ -46,7 +46,7 @@ const SEO = ({ title, description, image, pathname, article }) => (
             {seo.image && (
               <meta
                 property='og:image'
-                content='https://static.vecteezy.com/system/resources/thumbnails/000/357/520/small/Education__28654_29.jpg'
+                content='https://geluxeletrica.com.br/static/21ee8e2640318b91e9ce0dba5d0e8b5e/b4386/gelux-logo.png'
               />
             )}
 
