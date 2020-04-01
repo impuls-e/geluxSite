@@ -29,12 +29,6 @@ export default function Header() {
   return (
     <header className='container header'>
       <Img
-        className='icon'
-        fixed={data.icon.childImageSharp.fixed}
-        alt='icone da Gelux'
-      />
-
-      <Img
         className='logo'
         fixed={data.image.childImageSharp.fixed}
         alt='Logo da Gelux'

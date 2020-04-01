@@ -2,8 +2,11 @@ var plugins = [{
       plugin: require('/home/vinicius/projects/geluxSite/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
+      plugin: require('/home/vinicius/projects/geluxSite/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
+      options: {"plugins":[],"trackingId":"UA-141117092-14","head":true},
+    },{
       plugin: require('/home/vinicius/projects/geluxSite/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"Gelux","short_name":"GX","description":"Soluções Completas em Elétrica","start_url":"/","background_color":"#000000","theme_color":"#000000","display":"standalone","icon":"src/img/icon.png"},
+      options: {"plugins":[],"name":"Gelux","short_name":"GX","description":"Soluções Completas","start_url":"/","background_color":"#000000","theme_color":"#000000","display":"standalone","icon":"src/img/icon.png"},
     },{
       plugin: require('/home/vinicius/projects/geluxSite/node_modules/gatsby-plugin-html-attributes/gatsby-ssr'),
       options: {"plugins":[],"lang":"pt-BR"},
