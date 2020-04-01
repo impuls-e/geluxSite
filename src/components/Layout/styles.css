@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Raleway:400i,700,900&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Raleway:400i,700,900&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -28,7 +28,7 @@ button {
   padding: 0 20px;
 }
 .background {
-  background: url("../../images/park-lights-on.jpg");
+  background: url('../../img/park-lights-on.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
