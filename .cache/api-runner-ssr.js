@@ -7,6 +7,9 @@ var plugins = [{
     },{
       plugin: require('/home/vinicius/projects/geluxSite/node_modules/gatsby-plugin-html-attributes/gatsby-ssr'),
       options: {"plugins":[],"lang":"pt-BR"},
+    },{
+      plugin: require('/home/vinicius/projects/geluxSite/node_modules/gatsby-plugin-advanced-sitemap/gatsby-ssr'),
+      options: {"plugins":[]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
