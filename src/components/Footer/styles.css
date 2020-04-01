@@ -8,7 +8,7 @@ footer {
 footer p {
   font-style: italic;
 }
-footer h4 {
+footer a {
   width: 220px;
   margin-top: 5px;
   height: 30px;
@@ -24,7 +24,7 @@ footer h4 {
   footer {
     flex-direction: row;
   }
-  footer h4 {
+  footer a {
     margin: 0 0 0 10px;
   }
 }
