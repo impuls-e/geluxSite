@@ -1,11 +1,11 @@
-import React from "react";
+import React from 'react';
 
-import "./styles.css";
-import { useStaticQuery, graphql } from "gatsby";
-import Img from "gatsby-image";
+import './styles.css';
+import { useStaticQuery, graphql } from 'gatsby';
+import Img from 'gatsby-image';
 
-import { MdEmail } from "react-icons/md";
-import { FaFacebookSquare, FaInstagram } from "react-icons/fa";
+import { MdEmail } from 'react-icons/md';
+import { FaFacebookSquare, FaInstagram } from 'react-icons/fa';
 
 export default function Header() {
   const data = useStaticQuery(graphql`
@@ -27,27 +27,27 @@ export default function Header() {
     }
   `);
   return (
-    <header className="container header">
+    <header className='container header'>
       <Img
-        className="icon"
+        className='icon'
         fixed={data.icon.childImageSharp.fixed}
-        alt="icone da Gelux"
+        alt='icone da Gelux'
       />
 
       <Img
-        className="logo"
+        className='logo'
         fixed={data.image.childImageSharp.fixed}
-        alt="Logo da Gelux"
+        alt='Logo da Gelux'
       />
-      <div className="social-icons">
-        <a href="https://www.facebook.com/gelux.eletrica/">
-          <FaFacebookSquare color="#fff" />
+      <div className='social-icons'>
+        <a href='https://www.facebook.com/geluxeletrica/'>
+          <FaFacebookSquare color='#fff' />
         </a>
-        <a href="https://www.instagram.com/gelux.eletrica/">
-          <FaInstagram color="#fff" />
+        <a href='https://www.instagram.com/geluxeletrica/'>
+          <FaInstagram color='#fff' />
         </a>
-        <a href="mailto:contato.gelux@gmail.com">
-          <MdEmail color="#fff" />
+        <a href='mailto:contato.gelux@gmail.com'>
+          <MdEmail color='#fff' />
         </a>
       </div>
     </header>
