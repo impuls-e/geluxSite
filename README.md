@@ -20,7 +20,7 @@ Print
 
 PageSpeedTest BazarDasChaves                                         |  
 :-----------------------------------------------------------:|
-<img src="./src/img/pageSpeedTest.png" align="left"/>   | 
+<img src="./src/img/pageSpeedTest.png" align="center"/>   | 
 
 
 ### LINKS
