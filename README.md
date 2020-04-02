@@ -1,4 +1,4 @@
-<img src="./src/img/icon.png" align="center"></img>
+<img src="./src/img/gelux.png" align="center"></img>
 <h1 align="center">Gelux</h1>
 <p align="center">Projeto de criação de um<strong> Site</strong> para a empresa Gelux.</p>
 
@@ -20,7 +20,7 @@ Print
 
 PageSpeedTest BazarDasChaves                                         |  
 :-----------------------------------------------------------:|
-<img src="./src/images/pageSpeedTest.png" align="left"/>   | 
+<img src="./src/img/pageSpeedTest.png" align="left"/>   | 
 
 
 ### LINKS
