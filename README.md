@@ -1,4 +1,4 @@
-![geluxlogo](./src/img/gelux.png)
+![geluxlogo](./src/img/gelux.png#center))
 <h1 align="center">Gelux</h1>
 <p align="center">Projeto de criação de um<strong> Site</strong> para a empresa Gelux.</p>
 
