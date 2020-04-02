@@ -53,7 +53,12 @@ module.exports = {
     },
 
     `gatsby-plugin-advanced-sitemap`,
-    `gatsby-plugin-extract-schema`,
+    {
+      resolve: 'gatsby-plugin-extract-schema',
+      options: {
+        dest: `${__dirname}/path/to/schema.json`
+      }
+    },
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
