@@ -1,6 +1,6 @@
-<img src="./src/img/gelux-logo.png" align="center"></img>
-<h1 align="center">BelaBelinda</h1>
-<p align="center">Projeto de criação de uma <strong>LANDING PAGE </strong> para a empresa BelaBelinda</p>
+<img src="./src/img/icon.png" align="center"></img>
+<h1 align="center">Gelux</h1>
+<p align="center">Projeto de criação de um<strong> Site</strong> para a empresa Gelux.</p>
 
 ## Descrição
 A Gelux considera importante manter um canal de contato duradouro e de fácil acesso para se comunicar com seus clientes. Foi pensando também em fortalecer a imagem da empresa e disponibilizar informações importantes para seus clientes que o BazarDasChaves quer o desenvolvimento do seu site institucional.
