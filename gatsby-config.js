@@ -3,14 +3,14 @@ const config = require('./data/config');
 module.exports = {
   siteMetadata: {
     title: 'Gelux',
-    titleTemplate: '%s · Soluções Completas em Elétrica',
+    titleTemplate: 'Gelux · Soluções Completas em Elétrica',
     description:
       'Empresa especializada em soluções elétricas, com atendimento diferencial e grande experiência, desde pequenas até grandes obras.',
     url: 'https://www.geluxeletrica.com.br',
     siteUrl: 'https://www.geluxeletrica.com.br', // No trailing slash allowed!
     image: `${__dirname}/src/img/icon.png`, // Path to your image you placed in the 'static' folder
     twitterUsername: '@gelux',
-    author: `@impulse`
+    author: `@impulse`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -18,17 +18,17 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/img`
-      }
+        path: `${__dirname}/src/img`,
+      },
     },
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: 'UA-141117092-14',
         // this option places the tracking script into the head of the DOM
-        head: true
+        head: true,
         // other options
-      }
+      },
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
@@ -42,23 +42,25 @@ module.exports = {
         background_color: config.backgroundColor,
         theme_color: config.themeColor,
         display: 'standalone',
-        icon: 'src/img/icon.png' // This path is relative to the root of the site.
-      }
+        icon: 'src/img/icon.png', // This path is relative to the root of the site.
+      },
     },
     {
       resolve: 'gatsby-plugin-html-attributes',
       options: {
-        lang: 'pt-BR'
-      }
+        lang: 'pt-BR',
+      },
     },
 
     `gatsby-plugin-advanced-sitemap`,
     {
       resolve: 'gatsby-plugin-extract-schema',
       options: {
-        dest: `${__dirname}/path/to/schema.json`
-      }
+        dest: `${__dirname}/path/to/schema.json`,
+      },
     },
+    `gatsby-plugin-next-seo`,
+
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
@@ -66,16 +68,17 @@ module.exports = {
         sitemap: 'https://www.geluxeletrica.com.br/sitemap.xml',
         env: {
           development: {
-            policy: [{ userAgent: '*', disallow: ['/'] }]
+            policy: [{ userAgent: '*', disallow: ['/'] }],
           },
           production: {
-            policy: [{ userAgent: '*', allow: '/' }]
-          }
-        }
-      }
-    }
+            policy: [{ userAgent: '*', allow: '/' }],
+          },
+        },
+      },
+    },
+
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
-  ]
+  ],
 };

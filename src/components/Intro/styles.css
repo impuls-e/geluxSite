@@ -34,6 +34,7 @@
 .intro nav h2 {
   font-size: 22px;
   font-weight: 900;
+  margin-bottom: 1vh;
 }
 .intro nav a {
   font-size: 20px;
@@ -65,7 +66,7 @@
   color: #e8d365;
 }
 .intro nav a span:after {
-  content: "\00bb";
+  content: '\00bb';
   position: absolute;
   opacity: 0;
   top: 0;
@@ -75,7 +76,9 @@
 .intro nav a:hover span {
   padding-right: 25px;
 }
-
+.intro nav a span svg {
+  margin-left: 1vw;
+}
 .intro nav a:hover span:after {
   opacity: 1;
   right: 0;

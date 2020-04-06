@@ -13,6 +13,9 @@ var plugins = [{
     },{
       plugin: require('/home/vinicius/projects/geluxSite/node_modules/gatsby-plugin-advanced-sitemap/gatsby-ssr'),
       options: {"plugins":[]},
+    },{
+      plugin: require('/home/vinicius/projects/geluxSite/node_modules/gatsby-plugin-next-seo/gatsby-ssr'),
+      options: {"plugins":[]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
