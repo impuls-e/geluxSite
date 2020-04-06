@@ -13,15 +13,15 @@ const SEO = ({ title, description, image, pathname, article }) => (
           defaultDescription,
           siteUrl,
           defaultImage,
-          twitterUsername
-        }
-      }
+          twitterUsername,
+        },
+      },
     }) => {
       const seo = {
         title: title || defaultTitle,
         description: description || defaultDescription,
         image: `${siteUrl}${image || defaultImage}`,
-        url: `${siteUrl}${pathname || '/'}`
+        url: `${siteUrl}${pathname || '/'}`,
       };
       return (
         <>
@@ -46,7 +46,7 @@ const SEO = ({ title, description, image, pathname, article }) => (
             {seo.image && (
               <meta
                 property='og:image'
-                content='https://geluxeletrica.com.br/static/21ee8e2640318b91e9ce0dba5d0e8b5e/b4386/gelux-logo.png'
+                content='https://scontent.ffln1-1.fna.fbcdn.net/v/t1.0-9/91273606_3300776629951515_1865864948798717952_n.png?_nc_cat=111&_nc_sid=85a577&_nc_ohc=TVNGuGO30KwAX8oZxti&_nc_ht=scontent.ffln1-1.fna&oh=9a5862f1adf886cf63972dadd11b4271&oe=5EB0EDF8'
               />
             )}
 
@@ -78,14 +78,14 @@ SEO.propTypes = {
   description: PropTypes.string,
   image: PropTypes.string,
   pathname: PropTypes.string,
-  article: PropTypes.bool
+  article: PropTypes.bool,
 };
 SEO.defaultProps = {
   title: null,
   description: null,
   image: null,
   pathname: null,
-  article: false
+  article: false,
 };
 const query = graphql`
   query SEO {
