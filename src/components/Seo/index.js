@@ -55,8 +55,6 @@ const SEO = ({ title, description, image, pathname, article }) => (
             {seo.image && (
               <meta property='og:image:type' content='image/jpeg' />
             )}
-            {seo.image && <meta property='og:image:width' content='200' />}
-            {seo.image && <meta property='og:image:height' content='200' />}
             <meta name='twitter:card' content='summary_large_image' />
             {twitterUsername && (
               <meta name='twitter:creator' content={twitterUsername} />
