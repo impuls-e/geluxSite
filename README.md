@@ -18,12 +18,12 @@ Segue abaixo algumas informações sobre o resultado.
 
 Print
 
-PageSpeedTest BazarDasChaves                                         |  
+PageSpeedTest Gelux                                         |  
 :-----------------------------------------------------------:|
 <img src="./src/img/pageSpeedTest.png" align="center"/>   | 
 
 
 ### LINKS
 
-[PageSpeedTest BazarDasChaves](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fgeluxeletrica.com.br%2F&tab=mobile)
+[PageSpeedTest Gelux](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fgeluxeletrica.com.br%2F&tab=mobile)
 
