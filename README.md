@@ -3,7 +3,7 @@
 <p align="center">Projeto de criação de um<strong> Site</strong> para a empresa Gelux.</p>
 
 ## Descrição
-A Gelux considera importante manter um canal de contato duradouro e de fácil acesso para se comunicar com seus clientes. Foi pensando também em fortalecer a imagem da empresa e disponibilizar informações importantes para seus clientes que o BazarDasChaves quer o desenvolvimento do seu site institucional.
+A Gelux considera importante manter um canal de contato duradouro e de fácil acesso para se comunicar com seus clientes. Foi pensando também em fortalecer a imagem da empresa e disponibilizar informações importantes para seus clientes que a Gelux quer o desenvolvimento do seu site institucional.
 
 ## Solução
 Desenvolvemos um [site](https://geluxeletrica.com.br/) para a Gelux, usando o framework Gatsby.
